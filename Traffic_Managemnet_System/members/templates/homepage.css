@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400'); /* This line imports the Roboto Slab font from Google Fonts. */
+
+* {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+  } /* These lines set the font for all elements on the page to Roboto Slab and the font weight to 400. */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+} /* This section sets some basic styling for the body element, including removing margins and padding and setting the font family to Arial or a sans-serif font. */
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+} /* This section styles the header element, making it a flex container that aligns items to the center and has space between them. It also adds some padding and sets the text color to white */
+
+.logo img {
+    height: 300px;
+    width: 400px;
+} /* This styles the logo image by setting its height and width. */
+
+.topic {
+    text-align: center;
+    width: 50%;
+    margin-right: 90px;
+    margin-left: 120px;
+    padding-block: 40px;
+    background: #1C86C2;
+} /* This styles the topic div, centering the text, setting the width to 50%, adding some margin, padding, and a background color. */
+
+main {
+    margin-top: 100px;
+} /* This adds some margin to the top of the main element. */
+
+
+
+.buttons {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} /* This styles the buttons div, centering its contents horizontally and vertically using flexbox. */
+
+.buttons button {
+    margin: 0 100px;
+    padding: 20px 40px;
+    color: #fff;
+    border: none;
+    /*border-radius: 5px;*/
+    font-size: 16px;
+    cursor: pointer;
+    width: 30%;
+    background-color: #0080ff;
+    height: 70px;
+} /* This styles the buttons within the buttons div, setting margins, padding, text color, border, font size, cursor, width, height, and background color. */
+
+.buttons button:hover {
+    background-color: #666;
+}/* This sets the background color of the buttons to a darker shade of blue on hover. */
+
+footer {
+    margin-top: 130px;
+} /* This adds some margin to the top of the footer element. */
+
+.fine {
+    display: flex;
+    justify-content: center;
+    float: right;
+    width: 40%;
+} /* This styles the fine div, centering its contents horizontally and floating it to the right with a width of 40%. */
+
+.fine button {
+    margin: 0 100px;
+    padding: 20px 40px;
+    color: #fff;
+    border: none;
+    /*border-radius: 5px;*/
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    background-color: #C01C58;
+    height: 70px;
+} /* This styles the button within the fine div, setting margins, padding, text color, border, font size, cursor, width, height, and background color. */
+
+.fine button:hover {
+    background-color: #666;
+}
