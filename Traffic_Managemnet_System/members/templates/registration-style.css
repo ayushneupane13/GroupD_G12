@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400');
+* {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+  }
+.main img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 25%;
+  height: 30%;
+}
+
+form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form button{
+  background-color: #C01C58;
+  border: none;
+  border-radius: 2px;
+  padding:10px;
+  padding-inline: 20px;
+  margin-top: 20px;
+  color:white;
+}
+form button:hover {
+  background-color: #666;
+}
+
+h2{
+ background-color: #0080ff;
+	font-size: 180%;
+	color:white;
+	padding-inline:5% ;
+	text-align: center;
+	margin-bottom: 20px;
+  padding-block-end: 1%;
+	padding-block-start: 1%;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  margin: 10px;
+  padding: 5px;
+  width: 50%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #0080ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
