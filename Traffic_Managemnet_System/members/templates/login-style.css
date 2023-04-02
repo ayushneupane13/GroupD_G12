@@ -1,0 +1,78 @@
+
+/* Importing 'Roboto Slab' font family from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400');
+
+/* Applying 'Roboto Slab' font family to all elements on the page */
+* {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+
+/* Styling for the logo image */
+.main img {
+    position: absolute; /* Positioning the image */
+    left: 50%; /* Moving it to the center horizontally */
+    transform: translateX(-50%); /* Adjusting the position */
+    width: 25%; /* Setting the width of the image */
+    height: 32%; /* Setting the height of the image */
+}
+
+/* Styling for the form */
+form {
+    background-color: #037DED; /* Setting the background color */
+    position: absolute; /* Positioning the form */
+    top: 62%; /* Moving it to 62% from the top */
+    left: 50%; /* Moving it to the center horizontally */
+    transform: translate(-50%, -50%); /* Adjusting the position */
+    width: 30%; /* Setting the width of the form */
+    height: 72%; /* Setting the height of the form */
+    display: flex; /* Displaying the form as a flex container */
+    flex-direction: column; /* Setting the flex direction to column */
+    align-items: center; /* Centering the flex items horizontally */
+}
+
+/* Styling for the labels */
+label {
+    margin-top: 10px; /* Adding top margin to the labels */
+    color: white; /* Setting the color of the labels to white */
+}
+
+/* Styling for the heading */
+h2 {
+    font-size: 180%; /* Setting the font size */
+    color: white; /* Setting the color of the heading to white */
+    padding-inline: 5%; /* Adding padding to the left and right */
+    text-align: center; /* Centering the text */
+    margin-bottom: 20px; /* Adding bottom margin to the heading */
+    margin-bottom: 1px; /* Adding a small margin at the bottom */
+}
+
+/* Styling for the subheading */
+h4 {
+    color: white; /* Setting the color of the subheading to white */
+}
+
+/* Styling for the input fields */
+input[type="text"],
+input[type="password"] {
+    padding: 10px; /* Adding padding to the inputs */
+    margin: 10px 0; /* Adding margin to the inputs */
+    padding: 5px; /* Adding padding to the inputs */
+    width: 50%; /* Setting the width of the inputs */
+    border: none; /* Removing the border */
+    border-radius: none; /* Removing the border radius */
+}
+
+/* Styling for the button */
+button:hover {
+    background-color: #666; /* Changing the background color on hover */
+}
+
+button {
+    background-color: #C01C58; /* Setting the background color */
+    border: none; /* Removing the border */
+    border-radius: none; /* Removing the border radius */
+    padding-block: 6px; /* Adding padding to the button */
+    margin-top: 10px; /* Adding top margin to the button */
+    color: white; /* Setting the color of the button to white */
+}

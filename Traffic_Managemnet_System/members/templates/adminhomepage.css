@@ -1,0 +1,132 @@
+/* Import the Roboto Slab font from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400');
+
+/* Set the default font family and weight for all elements */
+* {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+
+/* Basic styles for the body element */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 3px;
+    color: #fff;   
+    width: 96%;
+}
+
+/* Logo styles */
+.logo img {
+    height: 200px;
+    width: 242px;
+}
+
+/* Topic container styles */
+.topic {
+    text-align:start;
+    width: 90%;
+    background: #0080ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Sidebar styles */
+aside {
+    background-color: #0080ff;
+    width: 200px;
+    height: 71%;
+    position: fixed;
+    top: 20%;
+    margin-top: 2%;
+    padding: 10px;
+    margin-left:1%;
+}
+
+/* Styles for the sidebar grid container */
+.sidebar {
+    display: grid;
+    justify-content: center;
+}
+
+/* Sidebar button styles */
+.sidebar button {
+    width: 83%;
+    padding:20px;
+    border:none;
+    background-color: #C01C58;
+    text-align: center;
+    cursor: pointer;
+    display:flex;
+    align-items: center;
+    display: block;
+    cursor: pointer;
+    position: relative;
+    top:40px;
+    margin-bottom: 20px;
+}
+
+/* Sidebar button hover effect */
+.sidebar button:hover {
+    background-color: #666;
+}
+
+/* Main content container styles */
+main {
+    background-color: #0080ff;
+    margin-left: 300px;
+    margin-top: 1%;
+    width: 70%;
+    padding: 2%;
+    height: 50%;
+    position: fixed;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+/* Profile button styles */
+.profile-button {
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 2px;
+    float: top;
+    margin-right: 110px;
+    margin: 30%;
+}
+
+/* Menu button styles */
+.menu-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+/* Spacing for buttons that are not menu buttons */
+button:not(.menu-button) {
+    margin: 5px 10px;
+}
+
+/* Heading 2 (h2) styles */
+h2 {
+    background-color: #fff;
+    align-items: center;
+    padding: 8px 16px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+ 

@@ -1,103 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Login Page</title>
-	<style>
-		.main img {
-			position: absolute;
-			left: 50%;
-			transform: translateX(-50%);
-			width: 25%;
-			height: 30%;
-		  }
-		
-		  form {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			width: 50%;
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-		  }
-		label {
-			margin-top: 10px;
-		}
-		
-		h2 {
-			background-color: #0080ff;
-			font-size: 180%;
-			color:white;
-			padding-inline:5% ;
-			text-align: center;
-			margin-bottom: 20px;
-			padding-block-end: 1%;
-			padding-block-start: 1%;
-		}
-		
-		input[type="text"],
-		input[type="password"] {
-			padding: 10px;
-			/* border: none; */
-			margin: 10px 0;
-			padding: 5px;
-			width: 50%;
-			border: 1px solid #ccc;
-			border-radius: 5px;
-		}
-		
-		.remember-forgot-container {
-			display: flex;
-			align-items: center;
-		}
-		
-		.remember-forgot-container label,
-		.remember-forgot-container a, 
-		.checkbox-container {
-			margin: 20px;
-			font-size: 15px;
-			display: inline;
-		}
-		input[type="submit"] {
-			background-color: #037DED;
-			color: #fff;
-			padding: 10px 20px;
-			border: none;
-			border-radius: 5px;
-			margin-top: 10px;
-			cursor: pointer;
-			transition: background-color 0.3s;
-		}
-		
-		input[type="submit"]:hover {
-			background-color: #037DED;
-		}
-	</style>
-	<link rel="stylesheet" type="text/css" href="login-style.css">
+    <!-- Title of the page -->
+    <title>Login Page</title>
+    
+    <!-- Link to the external CSS file for styling -->
+    <link rel="stylesheet" type="text/css" href="login-style.css">
 </head>
 <body>
-	<div class="main">
-			<img src="https://tinypic.host/images/2023/03/16/traffic-management-system-logo.png" alt="logo">
-					
-		<form>
-			<h2>Login</h2>
-
-			<label for="username">Username or Email:</label>
-			<input type="text" id="username" name="username">
-			<label for="password">Password:</label>
-			<input type="password" id="password" name="password">
-			<div class="checkbox-container">
-				<div class="remember-forgot-container">
-					<label for="remember-me">
-						<input type="checkbox" id="remember-me" name="remember-me">Remember me   &nbsp &nbsp&nbsp&nbsp&nbsp<a href="#">Forgot password?</a>
-					</label>
-				</div>
-			</div>
-			<input type="submit" value="Login">
-		</form>
-	</div>
-
-
+    <!-- Main container for the login form -->
+    <div class="main">
+        <!-- Logo image for the login page -->
+        <img src="https://tinypic.host/images/2023/03/26/traffic-management-system-logo.png" alt="Your Logo">
+        
+        <!-- Login form starts here -->
+        <form>
+            <!-- Header for the login form -->
+            <h2>Login</h2>
+            
+            <!-- Username or email input field -->
+            <label for="username">Username or Email:</label>
+            <input type="text" id="username" name="username">
+            
+            <!-- Password input field -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            
+            <!-- Remember me checkbox and forgot password link -->
+            <div class="checkbox-container">
+                <div class="remember-forgot-container">
+                    <label for="remember-me">
+                        <input type="checkbox" id="remember-me" name="remember-me">Remember me   &nbsp &nbsp&nbsp&nbsp&nbsp
+                        <a href="#">Forgot password?</a>
+                    </label>
+                </div>
+            </div>
+            
+            <!-- Login button -->
+            <input type="submit" value="Login">
+            
+            <!-- Registration link for new users -->
+            <br>
+            <p>New user?&nbsp;<a href="#">Register</a></p>
+        </form>
+    </div>
 </body>
 </html>
